@@ -1,6 +1,8 @@
-# svelte-template
+# Bellanov L.L.C.
 
-Template for general *Svelte* development.
+Code for the *Bellanov L.L.C.* website.
+
+![Bellanov L.L.C. Architecture](./diagrams/Architecture.svg)
 
 ## Prerequisites
 
