@@ -1,8 +1,8 @@
 # Bellanov L.L.C.
 
-Code for the *Bellanov L.L.C.* website.
+Code for the *Bellanov L.L.C.* organization.
 
-![Bellanov L.L.C. Architecture](./diagrams/Architecture.svg)
+![Bellanov L.L.C. Architecture](./diagrams/bellanov-llc/Architecture.svg)
 
 ## Prerequisites
 
