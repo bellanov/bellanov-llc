@@ -2,4 +2,8 @@
 
 Code for the *Bellanov L.L.C.* organization.
 
-![Bellanov L.L.C. Organization](./diagrams/bellanov-llc/Organization.png)
+## Structure
+
+The organization is defined across a series of **Folders** in *Google Cloud Platform (GCP)*.
+
+![Bellanov L.L.C. Organization](./diagrams/bellanov-llc/Organization.svg)
