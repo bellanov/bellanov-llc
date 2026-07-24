@@ -7,3 +7,11 @@ Code for the *Bellanov L.L.C.* organization.
 The organization is defined across a series of **Folders** in *Google Cloud Platform (GCP)*.
 
 ![Bellanov L.L.C. Organization](./diagrams/bellanov-llc/Organization.svg)
+
+
+## Projects
+
+Projects are defined across development environments, namely *Development*, *Staging*, *Production*, and *Shared*.
+
+![Bellanov L.L.C. Projects](./diagrams/bellanov-llc/Projects.svg)
+
