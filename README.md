@@ -11,7 +11,7 @@ The organization is defined across a series of **Folders** in *Google Cloud Plat
 
 ## Projects
 
-Projects are defined across development environments, namely *Development*, *Staging*, *Production*, and *Shared*.
+Projects are defined across development **Environments**, namely *Development*, *Staging*, *Production*, and *Shared*.
 
 ![Bellanov L.L.C. Projects](./diagrams/bellanov-llc/Projects.svg)
 
