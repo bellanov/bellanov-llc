@@ -1,0 +1,32 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "Templates for developing web applications with HTMX, HTML, CSS, and Node.js/Express.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "format": "eslint src --fix; npx prettier --write views/*.html *.md",
+    "lint": "eslint src; npx prettier --check views/*.html *.md"
+  },
+  "keywords": [
+    "htmx",
+    "template",
+    "express",
+    "html"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.9.7",
+    "supertest": "^7.1.4"
+  }
+}
