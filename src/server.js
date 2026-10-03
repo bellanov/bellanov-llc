@@ -31,6 +31,11 @@ app.get('/hello', (req, res) => {
   res.render('hello.html');
 });
 
+// Quill Editor page
+app.get('/quill', (req, res) => {
+  res.render('quill.html');
+});
+
 if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
