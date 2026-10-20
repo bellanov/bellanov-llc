@@ -8,8 +8,8 @@
     "dev": "nodemon src/server.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "format": "eslint src --fix; npx prettier --write views/*.html *.md",
-    "lint": "eslint src; npx prettier --check views/*.html *.md"
+    "format": "eslint src --fix; npx prettier --write public/*.html *.md",
+    "lint": "eslint src; npx prettier --check public/*.html *.md"
   },
   "keywords": [
     "htmx",
@@ -25,7 +25,10 @@
     "htmx.org": "^2.0.11"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
+    "globals": "^17.13.0",
     "jest": "^30.5.2",
     "nodemon": "^3.1.14",
     "prettier": "^3.9.7",
