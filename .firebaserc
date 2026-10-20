@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bellanov-development"
+    "default": "bellanov-production",
+    "staging": "bellanov-staging",
+    "production": "bellanov-production"
   }
 }
