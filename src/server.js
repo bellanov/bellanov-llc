@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, '../public')));
 app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'html');
-app.set('views', path.join(__dirname, '../views'));
+app.set('views', path.join(__dirname, '../public'));
 
 // Custom view engine to render HTML files
 app.engine('html', (filepath, options, callback) => {
@@ -17,23 +17,6 @@ app.engine('html', (filepath, options, callback) => {
     if (err) return callback(err);
     return callback(null, content);
   });
-});
-
-// Routes
-
-// Home page
-app.get('/', (req, res) => {
-  res.render('index.html');
-});
-
-// Hello World
-app.get('/hello', (req, res) => {
-  res.render('hello.html');
-});
-
-// Quill Editor page
-app.get('/quill', (req, res) => {
-  res.render('quill.html');
 });
 
 if (require.main === module) {
