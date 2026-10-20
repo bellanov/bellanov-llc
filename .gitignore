@@ -34,3 +34,6 @@ Thumbs.db
 # Diagrams
 **/*.svg.bkp
 **/*.svg.dtmp
+
+# Environments
+environments/
