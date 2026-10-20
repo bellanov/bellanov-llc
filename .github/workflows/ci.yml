@@ -68,7 +68,7 @@ jobs:
         continue-on-error: false
 
   preview:
-    name: Preview Deployment
+    name: Deploy to Preview Channel
     runs-on: ubuntu-latest
 
     permissions:
@@ -79,6 +79,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: "npm"
     
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
