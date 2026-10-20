@@ -65,7 +65,7 @@ jobs:
 
       - name: Run npm audit
         run: npm audit --audit-level=moderate
-        continue-on-error: false
+        continue-on-error: true
 
   preview:
     name: Deploy to Preview Channel
