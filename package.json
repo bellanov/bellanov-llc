@@ -5,7 +5,9 @@
   "main": "views/bellanov/server.js",
   "scripts": {
     "start": "node views/bellanov/server.js",
+    "start-components": "node views/bellanov/server.js",
     "dev": "nodemon views/bellanov/server.js",
+    "dev-components": "nodemon views/components/server.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "format": "eslint views --fix; npx prettier --write public/*.html *.md",
