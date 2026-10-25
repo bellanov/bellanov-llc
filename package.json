@@ -2,14 +2,14 @@
   "name": "html-template",
   "version": "1.0.0",
   "description": "Templates for developing web applications with HTMX, HTML, CSS, and Node.js/Express.",
-  "main": "src/server.js",
+  "main": "views/bellanov/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "start": "node views/bellanov/server.js",
+    "dev": "nodemon views/bellanov/server.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "format": "eslint src --fix; npx prettier --write public/*.html *.md",
-    "lint": "eslint src; npx prettier --check public/*.html *.md"
+    "format": "eslint views --fix; npx prettier --write public/*.html *.md",
+    "lint": "eslint views; npx prettier --check public/*.html *.md"
   },
   "keywords": [
     "htmx",
