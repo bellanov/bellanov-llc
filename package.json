@@ -10,8 +10,8 @@
     "dev-components": "nodemon views/components/server.js",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "format": "eslint views --fix; npx prettier --write public/*.html *.md",
-    "lint": "eslint views; npx prettier --check public/*.html *.md"
+    "format": "eslint views --fix; npx prettier --write views/bellanov/public/*.html *.md",
+    "lint": "eslint views; npx prettier --check views/bellanov/public/*.html *.md"
   },
   "keywords": [
     "htmx",
