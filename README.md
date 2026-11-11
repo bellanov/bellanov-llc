@@ -9,7 +9,7 @@ The project requires the following tools to be installed:
 - [Python 3.14](https://www.python.org/downloads/release/python-3140/)
 - [Node.js 24](https://nodejs.org/en/download/) (NVM is recommended for managing Node.js versions)
 
-## Installation
+## Quick Start
 
 1. Clone the repository:
 
@@ -24,14 +24,10 @@ cd bellanov-llc
 npm install
 ```
 
-## Usage
-
-### Development Mode
-
-Start the development server with auto-reload:
+3. Start the development server(s) with auto-reload.
 
 ```bash
-# Company Website
+# Organization Website
 npm run dev
 
 # Components Library
@@ -40,9 +36,7 @@ npm run dev-components
 
 Then open your browser and navigate to `http://localhost:3000`
 
-### Production Mode
-
-Start the server:
+4. Start the server in production mode.
 
 ```bash
 npm start
@@ -50,7 +44,7 @@ npm start
 
 The server will be available at `http://localhost:3000`
 
-## Running Tests
+## Testing
 
 Run all tests with coverage:
 
@@ -64,7 +58,7 @@ Run tests in watch mode:
 npm run test:watch
 ```
 
-## Linting
+## Linting & Formatting
 
 Check code quality:
 
