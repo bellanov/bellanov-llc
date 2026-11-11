@@ -34,7 +34,7 @@ Start the development server with auto-reload:
 # Company Website
 npm run dev
 
-# Components Library 
+# Components Library
 npm run dev-components
 ```
 
