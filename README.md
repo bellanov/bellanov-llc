@@ -60,7 +60,7 @@ npm run test:watch
 
 ## Linting & Formatting
 
-Check code quality:
+Lint the codebase:
 
 ```bash
 npm run lint
