@@ -7,9 +7,9 @@ describe('HTML Template Server', () => {
       const res = await request(app).get('/');
       expect(res.statusCode).toBe(200);
       expect(res.text).toContain('<!doctype html>');
-      expect(res.text).toContain('<h1>Bellanov Apilli</h1>');
+      expect(res.text).toContain('<h1>Components Library</h1>');
       expect(res.text).toContain(
-        '<p>Solution and Cloud Architect.</p>',
+        '<p>Summary of the available components.</p>',
       );
     });
 
