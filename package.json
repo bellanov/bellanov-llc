@@ -1,9 +1,10 @@
 {
-  "name": "html-template",
-  "version": "1.0.0",
+  "name": "bellanov-llc",
+  "version": "0.1.0",
   "description": "Templates for developing web applications with HTMX, HTML, CSS, and Node.js/Express.",
   "main": "views/bellanov/server.js",
   "scripts": {
+    "build": "echo 'Building...'",
     "start": "node views/bellanov/server.js",
     "start-components": "node views/bellanov/server.js",
     "dev": "nodemon views/bellanov/server.js",
